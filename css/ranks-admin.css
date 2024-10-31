@@ -1,0 +1,489 @@
+@charset "utf-8";
+
+/**
+ * 	Ranks Message
+ */
+.ranks-message {
+	margin: 1.33em 0;
+	padding: 1.2em 1.4em;
+	max-width: 1000px;
+	border: 1px solid #468847;
+	border-radius: 3px;
+	color: #468847;
+}
+.ranks-error {
+	margin: 1.33em 0;
+	padding: 1.2em 1.4em;
+	max-width: 1000px;
+	border: 1px solid #B94A48;
+	border-radius: 3px;
+	color: #B94A48;
+}
+
+/**
+ * 	Ranks Form Block
+ */
+.ranks-form-block {
+	margin: 1em 0;
+	max-width: 1000px;
+}
+
+/**
+ * 	Ranks Title Input
+ */
+.ranks-title-input {
+	margin: 0 0 0.5em;
+	padding: 3px 8px;
+	font-size: 1.7em;
+	line-height: 100%;
+	outline: medium none;
+	width: 100%;
+}
+
+/**
+ * 	Ranks Form Table
+ */
+.ranks-form-table {
+	max-width: 1000px;
+	box-shadow: 0 0 2px #DEDEDE;
+	border-top: 1px solid #DEDEDE;
+	border-left: 1px solid #DEDEDE;
+	border-collapse: separate;
+	border-spacing: 0;
+}
+.ranks-form-table > tbody > tr > th {
+	border-top: 1px solid #F9F9F9;
+	border-left: 1px solid #F9F9F9;
+	border-right: 1px solid #DEDEDE;
+	border-bottom: 1px solid #DEDEDE;
+	color: #999999;
+	background: #F9F9F9;
+	box-shadow: inset 0 0 20px #EFEFEF;
+	vertical-align: top;
+}
+.ranks-form-table > tbody > tr > th strong {
+	font-size: 14px;
+	font-weight: bold;
+	color: #888888;
+}
+.ranks-form-table > tbody > tr > td {
+	border-top: 1px solid #F9F9F9;
+	border-left: 1px solid #F9F9F9;
+	border-right: 1px solid #DEDEDE;
+	border-bottom: 1px solid #DEDEDE;
+	vertical-align: top;
+	color: #444444;
+	background: #FFFFFF;
+	box-shadow: inset 0 0 20px #F9F9F9;
+}
+.ranks-saved-value {
+	font-size: 15px;
+	color: #333333;
+}
+
+/**
+ * 	Ranks Rates Input
+ */
+.ranks-rates-input {
+	margin: 4px 0;
+}
+.ranks-rates-input input {
+	text-align: right;
+}
+.ranks-rates-label {
+	display: inline-block;
+	min-width: 75px;
+}
+.analytics .ranks-rates-label {
+	padding-left: 24px;
+	background: url('../images/analytics.png') no-repeat left center transparent;
+}
+.facebook .ranks-rates-label {
+	padding-left: 24px;
+	background: url('../images/facebook.png') no-repeat left center transparent;
+}
+.twitter .ranks-rates-label {
+	padding-left: 24px;
+	background: url('../images/twitter.png') no-repeat left center transparent;
+}
+
+/**
+ * 	Ranks Toggle
+ */
+.ranks-toggle {
+	margin: 10px 0 4px 6px;
+	padding: 0 0 0 6px;
+	border-left: 4px solid #C0C0C0;
+}
+.ranks-toggle .ranks-toggle {
+	margin: 0;
+	padding: 0;
+	border-left: none;
+}
+.ranks-toggle.disabled {
+	border-color: #F5F5F5;
+	color: #C0C0C0;
+}
+.ranks-toggle.disabled * {
+	border-color: #EFEFEF !important;
+	color: #C0C0C0 !important;
+}
+
+/**
+ * 	Ranks Schedule Type
+ */
+.ranks-schedule-type {
+}
+
+/**
+ * 	Ranks Rewrite Rule
+ */
+.ranks-rewrite-rule-path {
+	margin: 1px;
+	padding: 3px;
+	border: 1px solid #DFDFDF;
+	border-radius: 3px;
+	background-color: #FFFFFF;
+	line-height: 15px;
+	color: #7F7F7F;
+	font-family: inherit;
+	font-size: inherit;
+	font-weight: inherit;
+	cursor: text;
+}
+.ranks-rewrite-rule-path input {
+	margin: 0 1px;
+	padding: 0;
+	border: none;
+	border-radius: 0;
+	background-color: transparent;
+	color: #333333;
+}
+
+
+/**
+ * 	Ranks Remove Button
+ */
+input.ranks-remove-button {
+	display: inline;
+	margin: 0;
+	padding: 0;
+	border: none;
+	background: none;
+	text-decoration: underline;
+	cursor: pointer;
+	color: #B94A48;
+}
+input.ranks-remove-button:hover {
+	text-decoration: none;
+	color: #B94A48;
+}
+
+/**
+ * 	Ranks Header
+ */
+.ranks-header {
+	margin: 0 0 10px;
+	padding-bottom: 10px;
+	border-bottom: 1px solid #DEDEDE;
+	font-size: 16px;
+	font-family: monospace;
+	font-weight: bold;
+}
+.ranks-header span {
+
+}
+
+/**
+ * 	Ranks Rate Data
+ */
+.ranks-ratedata {
+	width: 30%;
+	float: left;
+}
+
+/**
+ * 	Ranks PostType Data
+ */
+.ranks-posttypedata {
+	margin: 3px 0 0 0;
+	width: 30%;
+	float: left;
+}
+
+/**
+ * 	Ranks Datalist
+ */
+.ranks-datalist {
+	margin: 6px 0 0 0;
+	width: 40%;
+	float: left;
+}
+.ranks-datalist dt {
+	clear: left;
+	float: left;
+	margin-right: 1em;
+	width: 40%;
+	position: relative;
+	margin-bottom: 10px;
+	height: 7px;
+	border-bottom: 1px dotted #C1C1C1;
+	font-weight: bold;
+	font-size: 10px;
+}
+.ranks-datalist dt span {
+	display: inline-block;
+	padding-right: 1em;
+	background: #FFFFFF;
+}
+.ranks-datalist dd {
+	float: left;
+	margin: 0 0 6px 0;
+	font-size: 12px;
+}
+.ranks-datalist dd.rates {
+
+}
+
+/**
+ * 	Ranks Action
+ */
+.ranks-action {
+	border-top: 1px solid #DEDEDE;
+	background: -moz-linear-gradient(top, #FFFFFF, #F5F5F5);
+	background: -webkit-gradient(linear, left top, left bottom, from(#FFFFFF), to(#F5F5F5));
+}
+.ranks-action:after {
+	content: '';
+	display: block;
+	clear: both;
+}
+.ranks-action-button {
+	float: left;
+	display: block;
+	padding: 5px 10px;
+	border-width: 0 1px 0 0;
+	border-style: solid;
+	border-color: #DEDEDE;
+	color: #666666;
+	text-align: center;
+	text-shadow: 0 1px 0 #FFFFFF;
+	text-decoration: none;
+	background: transparent;
+}
+.ranks-action-button:hover,
+.ranks-action-button:focus {
+	color: #777777;
+	background: #F5F5F5;
+	background: -moz-linear-gradient(top, #FEFEFE, #EFEFEF);
+	background: -webkit-gradient(linear, left top, left bottom, from(#FEFEFE), to(#EFEFEF));
+}
+.ranks-action-button:active {
+	padding: 6px 10px 4px;
+	color: #555555;
+	box-shadow: inset 0px 1px 1px #DEDEDE;
+	background: #EFEFEF;
+}
+.ranks-action-right {
+	float: right;
+	border-width: 0 0 0 1px;
+}
+.ranks-action-disabled {
+	color: #C0C0C0;
+}
+.ranks-action-disabled:hover,
+.ranks-action-disabled:focus,
+.ranks-action-disabled:active {
+	color: inherit;
+	background: inherit;
+}
+
+/**
+ * 	Ranks Box
+ */
+.ranks-box {
+	margin: 10px;
+	max-width: 1000px;
+	border: 1px solid #DEDEDE;
+	border-radius: 3px;
+	background: #FFFFFF;
+	box-shadow: 0 0 2px #EFEFEF;
+	overflow: hidden;
+}
+.ranks-box.invalid {
+	color: #C0C0C0;
+}
+.ranks-box-columns {
+	padding: 10px;
+}
+.ranks-box-columns:after {
+	content: '';
+	display: block;
+	clear: both;
+}
+.ranks-box-label {
+	padding: 5px 10px;
+	border-top: 1px solid #F9F9F9;
+	border-left: 1px solid #F9F9F9;
+	border-bottom: 1px solid #DEDEDE;
+	font-size: 14px;
+	color: #666666;
+	text-shadow: 0 1px 0 #FFFFFF;
+	background: #EFEFEF;
+}
+.analytics .ranks-box-label {
+	padding-left: 36px;
+	border-bottom-color: #F79820;
+	background: url('../images/analytics.png') no-repeat 10px center #EFEFEF;
+}
+.facebook .ranks-box-label {
+	padding-left: 36px;
+	border-bottom-color: #3B5998;
+	background: url('../images/facebook.png') no-repeat 10px center #EFEFEF;
+}
+.twitter .ranks-box-label {
+	padding-left: 36px;
+	border-bottom-color: #00ACED;
+	background: url('../images/twitter.png') no-repeat 10px center #EFEFEF;
+}
+.invalid .ranks-box-label {
+	border-bottom-color: #DEDEDE;
+	color: #C0C0C0;
+}
+
+.ranks-box-link {
+	display: block;
+	margin: 10px;
+	padding: 5px 10px;
+	max-width: 1000px;
+	border: 1px solid #DEDEDE;
+	box-shadow: 0 0 2px #EFEFEF;
+	font-size: 14px;
+	color: #666666;
+	text-align: center;
+	text-shadow: 0 1px 0 #FFFFFF;
+	text-decoration: none;
+	background: #EFEFEF;
+}
+.ranks-box-link:hover {
+	border: 1px solid #C0C0C0;
+	color: #777777;
+	background: #F5F5F5;
+}
+.ranks-box-link:active {
+	color: #555555;
+	padding: 6px 10px 4px 10px;
+	box-shadow: inset 0px 1px 2px #DEDEDE;
+	background: #E9E9E9;
+}
+
+/**
+ * 	Ranks Posts Table
+ */
+.ranks-posts-table {
+	max-width: 1000px;
+	border: 1px solid #DEDEDE;
+	background: #FFFFFF;
+	box-shadow: 0 0 2px #EFEFEF;
+	border-collapse: collapse;
+}
+.ranks-posts-table > thead > tr > th {
+	font-weight: bold;
+	padding: 5px 10px;
+	width: auto;
+	font-size: 14px;
+	color: #666666;
+	text-align: left;
+	text-shadow: 0 1px 0 #FFFFFF;
+	background: #EFEFEF;
+	border: 1px solid #DEDEDE;
+}
+.ranks-posts-table > thead > tr > th.account {
+	width: 35px;
+}
+.ranks-posts-table > thead > tr > th.account > span {
+	display: none;
+}
+.ranks-posts-table > thead > tr > th.account.analytics {
+	width: 45px;
+	background: url('../images/analytics.png') no-repeat center center #EFEFEF;
+}
+.ranks-posts-table > thead > tr > th.account.facebook {
+	background: url('../images/facebook.png') no-repeat center center #EFEFEF;
+}
+.ranks-posts-table > thead > tr > th.account.twitter {
+	background: url('../images/twitter.png') no-repeat center center #EFEFEF;
+}
+.ranks-posts-table > tbody > tr > td {
+	padding: 10px;
+	width: auto;
+	border-top: 1px solid #DEDEDE;
+	border-left: 1px solid #EFEFEF;
+	border-bottom: 1px solid #DEDEDE;
+}
+.ranks-posts-table > tbody > tr > td:first-child {
+	border-left: none;
+}
+.ranks-posts-table > tbody > tr:nth-child(2n) > td {
+	background: #F9F9F9;
+}
+.ranks-posts-table > tbody > tr > td.rank {
+	text-align: center;
+	font-size: 20px;
+	font-family: monospace;
+}
+.ranks-posts-table > tbody > tr > td.point {
+	text-align: right;
+	font-family: monospace;
+}
+.ranks-posts-table > tbody > tr > td.score {
+	font-weight: bold;
+}
+
+/**
+ * 	Ranks Schedule Table
+ */
+.ranks-schedule-table {
+	margin: 10px;
+	max-width: 1000px;
+	border: 1px solid #DEDEDE;
+	background: #FFFFFF;
+	box-shadow: 0 0 2px #EFEFEF;
+	border-collapse: collapse;
+}
+.ranks-schedule-table > thead > tr > th {
+	font-weight: bold;
+	padding: 5px 10px;
+	width: auto;
+	font-size: 10px;
+	color: #666666;
+	text-align: left;
+	text-shadow: 0 1px 0 #FFFFFF;
+	background: #EFEFEF;
+	border: 1px solid #DEDEDE;
+}
+.ranks-schedule-table > tbody > tr > td {
+	padding: 5px 10px;
+	width: auto;
+	font-size: 10px;
+	border-left: 1px solid #EFEFEF;
+}
+.ranks-schedule-table > tbody > tr > td:first-child {
+	border-left: none;
+}
+.ranks-schedule-table > tbody > tr:nth-child(2n) > td {
+	background: #F9F9F9;
+}
+.ranks-schedule-table > tbody > tr > td.split {
+	padding: 0;
+	height: 1px;
+	font-size: 1px;
+	border-top: 1px solid #DEDEDE;
+	border-bottom: 1px solid #DEDEDE;
+	background: #FFFFFF;
+}
+.ranks-schedule-table > tbody > tr > td.microtime {
+	text-align: right;
+	font-family: monospace;
+}
+
